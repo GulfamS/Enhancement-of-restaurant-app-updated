@@ -1,0 +1,37 @@
+.cart-items-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.empty-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-text {
+  font-family: Roboto;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.remove-btn {
+  background-color: rgb(58, 58, 226);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 14px 8px 14px;
+  font-family: Roboto;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.cart-items {
+  list-style-type: none;
+}

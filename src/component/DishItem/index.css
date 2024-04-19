@@ -1,0 +1,132 @@
+.dish-item-container {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 8px;
+  margin: 10px;
+}
+
+.veg-border {
+  border: 1px solid rgb(66, 195, 66);
+  align-self: flex-start;
+}
+
+.non-veg-border {
+  border: 1px solid rgb(220, 51, 51);
+  align-self: flex-start;
+}
+
+.veg-round {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(66, 195, 66);
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.non-veg-round {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(220, 51, 51);
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.dish-details-container {
+  flex-grow: 1;
+  margin-left: 12px;
+}
+
+.dish-name {
+  font-family: Roboto;
+  color: black;
+  font-size: 28px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.dish-currency-price {
+  font-family: Roboto;
+  color: rgb(105, 102, 102);
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.dish-description {
+  font-family: Roboto;
+  color: rgb(167, 163, 163);
+  font-size: 20px;
+}
+
+.not-availability-text {
+  font-family: Roboto;
+  color: red;
+  font-size: 18px;
+}
+
+.addon-availability-text {
+  font-family: Roboto;
+  color: green;
+  font-size: 18px;
+}
+
+.dish-calories {
+  font-family: Roboto;
+  color: rgb(242, 182, 71);
+  font-size: 20px;
+  font-weight: bold;
+  align-self: center;
+  min-width: 150px;
+  max-width: 250px;
+}
+
+.dish-image {
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  align-self: flex-start;
+  margin-left: 50px;
+}
+
+.controller-container {
+  display: flex;
+  align-items: center;
+  background-color: green;
+  width: fit-content;
+  min-width: 120px;
+  border-radius: 25px;
+  justify-content: space-between;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.quantity {
+  margin: 0 10px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.add-btn {
+  background-color: rgb(58, 58, 226);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 14px 8px 14px;
+  font-family: Roboto;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 12px;
+  border-radius: 5px;
+}

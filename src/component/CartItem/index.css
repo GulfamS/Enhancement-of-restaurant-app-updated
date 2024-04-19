@@ -1,0 +1,25 @@
+.cart-item-image {
+  width: 150px;
+}
+
+.cart-item-name {
+  font-family: Roboto;
+  color: rgb(10, 10, 65);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.dish-currency-price {
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+.controle-btn-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.control-btn {
+  margin: 8px;
+}
